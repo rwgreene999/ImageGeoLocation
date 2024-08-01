@@ -66,7 +66,7 @@ namespace RemoveGEOLocation
                 if (!silentMode)
                 {
                     string runtype = testMode ? "Would have saved" : "saved"; 
-                    Console.WriteLine($"Image {filename} Geo Locatoin metadata remove" + Environment.NewLine + "{runtype} as {outputFile}");
+                    Console.WriteLine($"Image {filename} Geo Location metadata remove" + Environment.NewLine + "{runtype} as {outputFile}");
                 }                
             }
         }

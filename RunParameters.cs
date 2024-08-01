@@ -12,6 +12,7 @@ namespace RemoveGEOLocation
     {
         public bool QuietMode { get; set; }
         public bool TestMode { get; set; }
+        public bool ShowHelpMode { get; set; }
         public string UserEnteredFile { get; set; } = string.Empty;
         public string OutputFolder { get; set; } = @"modified"; 
         public bool InvalidParameters { get; set; }
@@ -107,7 +108,7 @@ namespace RemoveGEOLocation
                             break;
                         case 'h':
                         case '?':
-                            parms.QuietMode = true;
+                            parms.ShowHelpMode = true;
                             break;
                         case 't':
                             parms.TestMode = true;

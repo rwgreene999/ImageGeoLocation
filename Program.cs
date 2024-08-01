@@ -12,7 +12,7 @@ internal class Program
     private static void Main(string[] args)
     {
         RunParameters runParameters = RunParameters.BuildRunParameters(args);
-        if (runParameters.InvalidParameters)
+        if (runParameters.InvalidParameters || runParameters.ShowHelpMode )
         {
             RunParameters.ShowHelp();
             return; 
