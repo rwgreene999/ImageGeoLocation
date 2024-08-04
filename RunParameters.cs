@@ -61,6 +61,7 @@ namespace RemoveGEOLocation
             }
             else 
             {
+
                 string fileName;
                 string dirName; 
                 if ( Directory.Exists(UserEnteredFile))
