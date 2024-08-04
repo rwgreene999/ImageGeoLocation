@@ -1,6 +1,6 @@
 # ImageGeoLocation
 
-This is a windows command line program to Show or Delete image's geolocation, or delete all metadata in an image.
+This is a windows command line program to remove Geolocation data from photos or delete all metadata in an image or show you the geolocationi data. 
 
 ## usage
 
