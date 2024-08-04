@@ -1,8 +1,8 @@
 {
   "profiles": {
     "RemoveGEOLocatoin": {
-        "commandName": "Project",
-        "commandLineArgs": "-g c:\\junk\\ForAmazon -o:c:\\m8"
+      "commandName": "Project",
+      "commandLineArgs": "-g c:\\rwg\\*.txt -o:c:\\m8"
     }
   }
 }
